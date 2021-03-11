@@ -1990,14 +1990,14 @@ header .brand {
   margin-top: 25px;
 }
 
-.logo a {
+a.logo {
     font-family: 'Poiret One', cursive;
     color: #000;
     font-size: 60px;
     margin-top: 0px;
 }
 
-.logo a:hover {
+a.logo:hover {
     text-decoration: none;
 }
 
@@ -2039,7 +2039,7 @@ header.affix {
   right: 0;
 }
 
-header.affix .logo a {
+header.affix a.logo {
     font-size:40px;
 }
 
