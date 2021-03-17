@@ -24,7 +24,7 @@
 /*---
   00. Presets
 ---*/
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300;400;700&family=Work+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Work+Sans:wght@300;400;500&family=Roboto+Mono&display=swap');
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1991,10 +1991,12 @@ header .brand {
 }
 
 a.logo {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Roboto', cursive;
     color: #000;
     font-size: 60px;
     margin-top: 0px;
+    font-weight: 700;
+    text-shadow: 0 0 3px #CCC;
 }
 
 a.logo:hover {
