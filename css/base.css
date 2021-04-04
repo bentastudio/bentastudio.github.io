@@ -25,6 +25,7 @@
   00. Presets
 ---*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Work+Sans:wght@300;400;500&family=Roboto+Mono&display=swap');
+@import url("https://use.typekit.net/axe4vwz.css");
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -57,7 +58,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Work Sans", "Helvetica Neue", sans-serif;
+    /* font-family: "Work Sans", "Helvetica Neue", sans-serif;*/
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 @media screen and (max-width: 768px) {
@@ -289,6 +293,9 @@ h1 span.right, h2 span.right, h3 span.right, h4 span.right, h5 span.right, h6 sp
   border-bottom: 1px solid #eee;
 }
 
+.brand  img{
+    height: 50px;
+}
 .brand .light-brand {
   display: none;
 }
