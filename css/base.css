@@ -2056,9 +2056,11 @@ header.affix .brand, header.affix .menu {
   margin-top: 0;
 }
 
-header.affix .brand .dark-brand {
-  display: block;
-}
+    header.affix .brand .dark-brand {
+        display: block;
+        height: 45px;
+        margin-top: 5px;
+    }
 
 header.affix .brand .light-brand {
   display: none;
