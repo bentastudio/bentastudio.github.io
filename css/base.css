@@ -1740,7 +1740,7 @@ blockquote:after {
     font-size: 11px;
     letter-spacing: 1px;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: lowercase;
     opacity: 0;
     -webkit-transform: translateX(-10px);
             transform: translateX(-10px);
