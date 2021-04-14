@@ -55,6 +55,7 @@ a:focus, a:active, a:hover, textarea:focus, textarea:active, textarea:hover, inp
 body {
   font-family: "Roboto Mono", "Helvetica Neue", sans-serif;
   font-weight: 300;
+  text-transform:lowercase;
 }
 
 h1, h2, h3, h4, h5, h6 {
