@@ -1197,7 +1197,7 @@ img.standalone {
   bottom: 0;
   left: 0;
   background-size: cover;
-  background-position: center;
+  /*background-position: center;*/
 }
 
 .bg.faded {
