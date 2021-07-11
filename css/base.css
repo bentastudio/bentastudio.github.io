@@ -119,7 +119,7 @@ section.content, section .content, header .content {
 
     section.content h1, section .content h1, header .content h1 {
         margin-bottom: 37px;
-        color: #eee;
+    
         text-shadow: 0 0 15px #FFF;
     }
     section.slider h3 {
