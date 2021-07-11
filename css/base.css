@@ -116,9 +116,17 @@ section.content, section .content, header .content {
   line-height: 2;
 }
 
-section.content h1, section .content h1, header .content h1 {
-  margin-bottom: 37px;
-}
+
+    section.content h1, section .content h1, header .content h1 {
+        margin-bottom: 37px;
+        color: #eee;
+        text-shadow: 0 0 15px #FFF;
+    }
+    section.slider h3 {
+        margin-bottom: 1.7em;
+        color: #fff;
+        background-color: #698583aa;
+    }
 
 section.content p, section .content p, header .content p {
   margin-bottom: 50px;
@@ -2009,14 +2017,15 @@ blockquote:after {
   09. Sections
 ---*/
 header {
-  box-shadow: 1px 0 1px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  display: inline-block;
-  width: 100%;
-  z-index: 10;
-  height: 100px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+    box-shadow: 1px 0 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    z-index: 10;
+    height: 100px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: #ffffffaa;
 }
 
 header .brand {
