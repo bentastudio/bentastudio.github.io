@@ -1,0 +1,18 @@
+﻿/* Place Your Custom Styles Here */
+
+.navbar-brand-img {
+    height: 44px;
+    max-height: 100%;
+    width: auto;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 1rem;
+}
+
+.hero-img {
+    height: 100px;
+    width: auto;
+}
