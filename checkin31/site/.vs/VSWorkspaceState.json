@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
+    "\\assets\\images",
     "\\assets\\js"
   ],
-  "SelectedNode": "\\text-wide-section-image-color-background.html",
   "PreviewInSolutionExplorer": false
 }
